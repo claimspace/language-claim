@@ -2,11 +2,11 @@
   "name": "language-claim",
   "main": "./lib/language-claim",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Claim language support in Atom",
   "keywords": [
   ],
   "activationCommands": {},
-  "repository": "https://github.com/atom/language-claim",
+  "repository": "https://github.com/claimspace/language-claim",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
