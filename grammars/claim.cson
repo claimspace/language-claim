@@ -71,7 +71,7 @@ patterns: [
     match: '\\+\\='
   }
 
-  # ?
+  # Compact Assert
   {
     name: 'keyword.other.claim'
     match: '\\+'
@@ -128,7 +128,7 @@ patterns: [
   # Rich Text
   {
     name: 'constant.library.claim'
-    begin: '\\ \\='
+    begin: '\\ \\+?\\='
     beginCaptures:
       '0':
         name: 'keyword.other.claim'
