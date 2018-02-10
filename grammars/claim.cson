@@ -77,6 +77,12 @@ patterns: [
     match: '\\+'
   }
 
+  # Compact Line
+  {
+    name: 'keyword.other.claim'
+    match: '\\ \\\\'
+  }
+
   # Include
   {
     name: 'keyword.other.claim'
