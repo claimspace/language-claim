@@ -77,6 +77,12 @@ patterns: [
     match: '\\+'
   }
 
+  # Compact Dispute
+  {
+    name: 'keyword.other.claim'
+    match: '\\~'
+  }
+
   # Compact Line
   {
     name: 'keyword.other.claim'
@@ -93,6 +99,12 @@ patterns: [
   {
     name: 'keyword.other.claim'
     match: '\\<'
+  }
+
+  # Insert
+  {
+    name: 'keyword.other.claim'
+    match: '\\>'
   }
 
   # Mounts
