@@ -179,6 +179,21 @@ patterns: [
     ]
   }
 
+  # Inline Html
+  {
+    name: 'constant.library.claim'
+    begin: '\\ \\+?\\|'
+    beginCaptures:
+      '0':
+        name: 'keyword.other.claim'
+    end: '\\n'
+    patterns: [
+      {
+        include: 'source.gfm'
+      }
+    ]
+  }
+
   # Line self ref
   {
     name: 'constant.language.claim'
