@@ -56,7 +56,7 @@ patterns: [
   # Objects
   {
     name: 'keyword.other.claim'
-    match: '\\b(object|ref)\\b'
+    match: '\\b(object|ref|image)\\b'
   }
 
   # ... ?
