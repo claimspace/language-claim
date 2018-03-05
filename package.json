@@ -1,6 +1,6 @@
 {
   "name": "language-claim",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Claim language support in Atom",
   "keywords": [],
   "activationCommands": {},
