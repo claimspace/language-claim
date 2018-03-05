@@ -41,10 +41,16 @@ patterns: [
     match: '\\b(model|extend|apply|include|insert)\\b'
   }
 
+  # Primitives
+  {
+    name: 'keyword.other.claim'
+    match: '\\b(term|claim|texxt)\\b'
+  }
+
   # Asserts
   {
     name: 'keyword.other.claim'
-    match: '\\b(line|claim|text|assume|assert|dispute|disclose|suspend|require|from|with)\\b'
+    match: '\\b(line|assume|assert|dispute|disclose|suspend|require|from|with)\\b'
   }
 
   # Paths
