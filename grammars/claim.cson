@@ -65,6 +65,17 @@ patterns: [
     match: '\\b(object|ref|image)\\b'
   }
 
+  # Masks
+  {
+    name: 'keyword.other.claim'
+    match: '\\b(book|article|essay|letter|person|paper)\\b'
+  }
+
+  {
+    name: 'keyword.other.claim'
+    match: '\\b(concept|algorithm|datastruct)\\b'
+  }
+
   # ... ?
   {
     name: 'keyword.other.claim'
